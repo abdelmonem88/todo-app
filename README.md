@@ -35,7 +35,7 @@ This Todo List application allows users to add, delete, edit, and mark tasks as 
 1. Clone the repository:
 
    ```bash
-   git clone <repository-link>
+   git clone <https://github.com/abdelmonem88/todo-app.git>
    cd todo-app
 
 ## Usage
