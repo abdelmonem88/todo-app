@@ -1,11 +1,12 @@
 .listContainer {
-  margin-top: 20px;
+  padding: 10px;
+  margin-top: 10px;
   max-height: 300px;
   overflow-y: auto;
 }
 
 .listContainer::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 .listContainer::-webkit-scrollbar-track {
   background: lightgray;

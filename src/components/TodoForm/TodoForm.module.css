@@ -15,8 +15,7 @@ input {
 
 button[type="submit"] {
   height: 30px;
-  background-color: lightgray;
-  color: #000;
+  background: rgba(255, 255, 255, 0.05);
   font-weight: bold;
 }
 
