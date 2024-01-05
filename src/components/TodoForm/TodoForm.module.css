@@ -1,0 +1,27 @@
+.form_content {
+  margin-bottom: 30px;
+}
+
+.form_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+input {
+  flex: 1;
+}
+
+button[type="submit"] {
+  height: 30px;
+  background-color: lightgray;
+  color: #000;
+  font-weight: bold;
+}
+
+.error_wrapper {
+  color: lightcoral;
+  font-size: 12px;
+  margin-bottom: 10px;
+}

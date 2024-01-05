@@ -1,0 +1,46 @@
+.itemContainer {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.editInput {
+  margin-right: 10px;
+}
+
+.editButton {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  cursor: pointer;
+}
+
+.edit_input,
+.taskText {
+  flex: 1;
+}
+
+.save_button {
+  background-color: lightgreen;
+  color: #000;
+  font-weight: bold;
+}
+
+.edit_button {
+  background-color: lightblue;
+  color: #000;
+  font-weight: bold;
+}
+
+.delete_button {
+  background-color: lightcoral;
+  color: #000;
+  font-weight: bold;
+}
