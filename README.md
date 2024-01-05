@@ -49,7 +49,7 @@ This Todo List application allows users to add, delete, edit, and mark tasks as 
 2. Run the application:
 
    ```bash
-    npm start
+    npm run dev
     ```
 
 3. Open the application in your browser:
