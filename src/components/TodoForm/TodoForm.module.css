@@ -15,8 +15,18 @@ input {
 
 button[type="submit"] {
   height: 30px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.1);
   font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"]:active {
+  box-shadow: none;
 }
 
 .error_wrapper {

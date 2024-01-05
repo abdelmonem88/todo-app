@@ -1,5 +1,5 @@
 .itemContainer {
-  margin-bottom: 10px;
+  min-height: 35px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -28,16 +28,22 @@
 }
 
 .save_button {
-  background-color: lightgreen;
+  background-color: rgba(0, 102, 0, 0.6);
   font-weight: bold;
 }
 
 .edit_button {
-  background-color: lightblue;
+  background-color: rgba(0, 0, 139, 0.6);
   font-weight: bold;
 }
 
 .delete_button {
-  background-color: lightcoral;
+  background-color: rgba(139, 0, 0, 0.6);
   font-weight: bold;
+}
+
+.save_button,
+.edit_button,
+.delete_button {
+  font-weight: 300 !important;
 }
